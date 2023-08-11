@@ -1,4 +1,5 @@
-@import url(fontawesome-all.min.css);
+@import url(fontawesome.min.css);
+@import url(all.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 /*
@@ -3649,13 +3650,13 @@ input, select, textarea {
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #0a0c8a;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #0f8bad !important;
 			}
 
 		#nav strong, #nav b {
