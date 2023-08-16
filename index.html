@@ -130,23 +130,30 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form method="post" action="https://formsubmit.co/el/wenure">
 								<div class="fields">
+									
+									<label for="text">Send me a message:</label>
 									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<label name="name">Name</label>
+										<input type="text" name="name" id="name" placeholder="Full Name" required/>
 									</div>
 									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="hidden" name="_subject" value="New submission!">
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<label name="email">Email</label>
+										<input type="text" name="email" id="email" placeholder="your@mail.com" required/>
 									</div>
+									<div class="field">
+										<label name="message">Message</label>
+										<textarea name="message" id="message" rows="3" placeholder="What can I do for you? 😊"></textarea>
+									</div>
+									<input type="hidden" name="_next" value="https://myacov.github.io/">
+									<input type="hidden" name="_autoresponse" value="Thank you for contacting me, I will be in touch soon">
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<button type="submit" value="Send Message">Send</button>
 								</ul>
 							</form>
 						</section>
