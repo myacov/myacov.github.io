@@ -130,16 +130,12 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="https://formsubmit.co/el/wenure">
+							<form action="https://formspree.io/f/xnqkpyda" method="POST">
 								<div class="fields">
-									
-									<label for="text">Send me a message:</label>
+									<label name="text">Send me a message:</label>
 									<div class="field">
 										<label name="name">Name</label>
 										<input type="text" name="name" id="name" placeholder="Full Name" required/>
-									</div>
-									<div class="field">
-										<input type="hidden" name="_subject" value="New submission!">
 									</div>
 									<div class="field">
 										<label name="email">Email</label>
@@ -149,14 +145,13 @@
 										<label name="message">Message</label>
 										<textarea name="message" id="message" rows="3" placeholder="What can I do for you? 😊"></textarea>
 									</div>
-									<input type="hidden" name="_next" value="https://myacov.github.io/">
-									<input type="hidden" name="_autoresponse" value="Thank you for contacting me, I will be in touch soon">
 								</div>
 								<ul class="actions">
-									<button type="submit" value="Send Message">Send</button>
+									<button type="submit">Send</button>
 								</ul>
 							</form>
 						</section>
+
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
