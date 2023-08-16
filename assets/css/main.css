@@ -293,13 +293,13 @@ input, select, textarea {
 	}
 
 	a {
-		color: #212931;
+		color: #000000;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #0c6d88 !important;
 		}
 
 	strong, b {
@@ -4592,8 +4592,7 @@ input, select, textarea {
 					border-bottom: 0;
 					display: block;
 					font-family: "Source Sans Pro", Helvetica, sans-serif;
-					font-size: 0.9rem;
-					font-size: 0.9rem;
+					font-size: 1.2rem;
 					font-weight: 900;
 					letter-spacing: 0.075em;
 					padding: 0.75rem 0;
