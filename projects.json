@@ -1,0 +1,80 @@
+[
+    {
+        "Id": 1,
+        "title": "Web Server Project",  
+        "description": "Running a web server in a Linux VM with Vagrant.",
+        "technologies": ["Vagrant", "Linux", "Web Server"],
+        "image": "./images/proj1.jpg",
+        "link": "https://github.com/myacov/web-server-project/",
+        "categories": ["Web Development"],
+        "display": true,
+        "featured": false
+    },
+    {
+        "Id": 2,
+        "title": "Multi Tier Web Application Setup",
+        "description": "setting up A Multi Tier Web Application on different VMs.",
+        "technologies": ["Technology1", "Technology2"],
+        "image": "images/proj2.jpg",
+        "link": "https://github.com/myacov/vprofile-local.git",
+        "categories": ["Cloud Automation"],
+        "display": true,
+        "featured": false
+    },
+    {
+        "Id": 3,
+        "title": "Multi Tier Web Application on AWS",
+        "description": "setting up A Multi Tier Web Application on different VMs.",
+        "technologies": ["Technology1", "Technology2"],
+        "image": "images/proj3.jpg",
+        "link": "https://github.com/myacov/vprofile-aws",
+        "categories": ["Cloud Automation"],
+        "display": true,
+        "featured": false
+    },
+    {
+        "Id": 4,
+        "title": "Continuous Integration Using Jenkins",
+        "description": "Continuous Integration with Jenkins Nexus Sonarqube and Slack.",
+        "technologies": ["Technology1", "Technology2"],
+        "image": "images/proj4b.jpg",
+        "link": "https://github.com/myacov/CI-Jenkins",
+        "categories": ["Cloud Automation"],
+        "display": true,
+        "featured": false
+    },
+    {
+        "Id": 5,
+        "title": "Cloud Automation with Ansible",
+        "description": "setting up A Multi Tier Web Application on different VMs.",
+        "technologies": ["Technology1", "Technology2"],
+        "image": "images/proj6.jpg",
+        "link": "https://github.com/myacov/Ansible-VPC.git",
+        "categories": ["Cloud Automation"],
+        "display": true,
+        "featured": false
+    },
+    {
+        "Id": 6,
+        "title": "Complete Provisioning with Ansible",
+        "description": "setting up A Multi Tier Web Application on different VMs.",
+        "technologies": ["Technology1", "Technology2"],
+        "image": "images/proj6c.jpg",
+        "link": "https://github.com/myacov/Ansible-VPC/tree/vprofile-stack",
+        "categories": ["Cloud Automation"],
+        "display": true,
+        "featured": false
+    },
+    {
+        "Id": 7,
+        "title": "Containerizing a Java Application with Docker",
+        "description": "In this project, I aim to understand the ins and outs of containerizing a Java application. The goal was to encapsulate both the application and its dependencies into a coherent, portable environment, simplifying deployment and enabling seamless scalability",
+        "technologies": ["Technology1", "Technology2"],
+        "image": "images/docker-app-project.jpg",
+        "link": "https://github.com/myacov/Docker-app-container",
+        "categories": ["Cloud Automation","Docker"],
+        "display": true,
+        "featured": true
+    }
+]
+  
