@@ -3323,6 +3323,10 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
+		#resume a {
+			color: #0a0c8a;
+		}
+
 			#intro a:hover {
 				border-bottom-color: transparent;
 				color: #18bfef !important;
@@ -4688,3 +4692,4 @@ input, select, textarea {
 		}
 
 	}
+
