@@ -36,7 +36,7 @@
         "Id": 4,
         "title": "Continuous Integration Using Jenkins",
         "description": "Continuous Integration with Jenkins Nexus Sonarqube and Slack.",
-        "technologies": ["AWS", "EC2", "Jenkins", "Nexus", "Sonarqube","Sonarscanner" "Slack", "CI/CD"],
+        "technologies": ["AWS", "EC2", "Jenkins", "Nexus", "Sonarqube","Sonarscanner", "Slack", "CI/CD"],
         "image": "images/CIJenkins.jpg",
         "link": "https://github.com/myacov/CI-Jenkins",
         "categories": ["CI/CD", "Automation", "DevOps"],
